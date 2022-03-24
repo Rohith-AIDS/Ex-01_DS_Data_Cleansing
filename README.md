@@ -20,7 +20,7 @@ Save the Clean data to the file
 
 
 # CODE
-```
+~~~
 import pandas as pd
 df=pd.read_csv("Data_set.csv")
 df.head(10)
@@ -39,7 +39,6 @@ df.head()
 df['watchers']=df['watchers'].fillna(df['watchers'].mode()[0])
 df.head()
 df.info()
-```
+~~~
 # OUTPUT
 ![gitlogo](dataclean.jpg)
-    
