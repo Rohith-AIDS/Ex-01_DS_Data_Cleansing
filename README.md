@@ -23,10 +23,15 @@ Save the Clean data to the file
 
 
 import pandas as pd
+
 df=pd.read_csv("Data_set.csv")
+
 df.head(10)
+
 df.info()
+
 df.tail()
+
 df['show_name']=df['show_name'].fillna(df['show_name'].mode()[0])
 
 df.head()
